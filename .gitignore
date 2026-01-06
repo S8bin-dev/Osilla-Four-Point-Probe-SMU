@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Results and data files
+results/
+*.csv
+
+# Documentation (large PDFs)
+*.pdf
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local

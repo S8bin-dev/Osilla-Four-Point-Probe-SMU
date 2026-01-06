@@ -1,0 +1,86 @@
+/* Main Window */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+/* Sidebar */
+QWidget#Sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #d0d0d0;
+}
+
+/* Header/Group Boxes */
+QGroupBox {
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Labels */
+QLabel {
+    color: #333333;
+    font-size: 14px;
+}
+
+/* Inputs */
+QSpinBox, QDoubleSpinBox, QComboBox {
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+/* Main Display Area (Dark) */
+QWidget#DisplayArea {
+    background-color: #101010;
+    color: #ffffff;
+}
+
+/* Digital Readouts */
+QLabel#DigitalReadout {
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif; /* Fallback if digital font missing */
+    font-size: 48px;
+    font-weight: bold;
+}
+
+QLabel#DigitalUnit {
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+QLabel#DigitalLabel {
+    color: #a0a0a0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Power Button */
+QPushButton#PowerButton {
+    background-color: #b71c1c; /* Dark Red */
+    color: white;
+    border-radius: 30px; /* Circular */
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #801313;
+}
+QPushButton#PowerButton:checked {
+    background-color: #d32f2f; /* Brighter Red when On */
+    border: 2px solid #b71c1c;
+}
+
+/* Logo Area */
+QLabel#Logo {
+    color: #4a148c; /* Purple */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Log Area */
+QTextEdit#Log {
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    font-family: monospace;
+    font-size: 11px;
+    color: #333333;
+}

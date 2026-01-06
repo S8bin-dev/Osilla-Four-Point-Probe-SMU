@@ -1,0 +1,9 @@
+xtralien
+pyserial
+numpy
+pandas
+matplotlib
+PyQt6
+pyqtgraph
+streamlit
+plotly
