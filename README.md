@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python 3.8+">
   <img src="https://img.shields.io/badge/PyQt6-GUI-green.svg" alt="PyQt6">
   <img src="https://img.shields.io/badge/Streamlit-Web-red.svg" alt="Streamlit">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
 </p>
 
 ---
@@ -276,13 +275,7 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👤 Author
+##  Author
 
 **Sabin Baral**
 
